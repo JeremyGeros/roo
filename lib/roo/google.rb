@@ -95,7 +95,7 @@ module GData
   end # class
 end # module
 
-class Google < GenericSpreadsheet
+class RGoogle < GenericSpreadsheet
   attr_accessor :date_format, :datetime_format
   
   # Creates a new Google spreadsheet object.
